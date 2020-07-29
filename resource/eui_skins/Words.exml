@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WordsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="75" height="75">
+	<w:Config id="173802f8654" ></w:Config>
+	<e:Rect width="75" height="75" x="0" y="0" fillColor="0xffffff" anchorOffsetX="0" anchorOffsetY="0" ellipseWidth="12" ellipseHeight="12" strokeWeight="4" strokeColor="0x108fea"/>
+	<e:Label id="lb_text" text="字" size="30" anchorOffsetY="0" height="34" textColor="0xb70101" verticalAlign="middle" x="22.37" verticalCenter="0" fontFamily="SimHei"/>
+</e:Skin>

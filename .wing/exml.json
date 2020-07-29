@@ -1,0 +1,30 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  },
+  "17375e19176": {
+    "path": "..\\resource\\eui_skins\\SceneBg.ts",
+    "class": "SceneBg",
+    "parentPath": ""
+  },
+  "17379467518": {
+    "path": "..\\resource\\eui_skins\\levelskin.ts",
+    "class": "levelskin",
+    "parentPath": "",
+    "guideLines": [
+      {
+        "type": "h",
+        "pos": 82
+      }
+    ]
+  },
+  "173802820a3": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}

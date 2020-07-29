@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneGameSkinSkin" currentState="game" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"  states="gamewin,game,defeated" >
+	<w:Config id="173802820a3" ></w:Config>
+	<e:Image source="GameBG3_jpg" x="-3" y="-2"/>
+	<e:Image source="WordFrame_png" x="36" y="89"/>
+	<e:Group id="Group_option" width="391.51" height="316" x="166" y="561.01" anchorOffsetX="0" anchorOffsetY="0" includeIn="game">
+		<ns1:Word width="73" height="73" x="1" y="3.299999999999841" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="WordsSkin"/>
+		<ns1:Word width="73" height="73" x="92.62" y="13.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="WordsSkin"/>
+		<ns1:Word width="73" height="73" x="102.62" y="23.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="112.62" y="33.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="122.62" y="43.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="132.62" y="53.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="142.62" y="63.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="152.62" y="73.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="238" y="83.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"     skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="172.62" y="93.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"  skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="182.62" y="103.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="192.62" y="113.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="202.62" y="123.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="212.62" y="133.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="222.62" y="143.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="232.62" y="153.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="242.62" y="163.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="252.62" y="173.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="262.62" y="183.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<ns1:Word width="73" height="73" x="272.62" y="193.29999999999984" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" skinName="WordsSkin" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout orientation="rows" requestedRowCount="4"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="Group_answer" width="382" height="86" x="166" y="437.66" anchorOffsetY="0" anchorOffsetX="0">
+		<ns1:Word  skinName="WordsSkin" width="81" height="80" x="9" y="2.01" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:Word skinName="WordsSkin" width="81" height="80" x="104.01" y="3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:Word  skinName="WordsSkin" width="81" height="80" x="199.64" y="1.33" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<ns1:Word skinName="WordsSkin" width="81" height="80" x="296.34" y="1.99" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	
+	</e:Group>
+	<e:Button id="btn_back" label="" x="42.08" y="4.72">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BackBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="img_question" width="392.72" height="245.76" x="129.8" y="145.37" anchorOffsetX="-27.32" anchorOffsetY="-30.39" source=""/>
+	<e:Group width="720" height="1136" includeIn="gamewin,defeated" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="Result_png" x="39" y="543"/>
+		<e:Button id="btn_next" label="" x="515" y="1017" includeIn="gamewin,defeated">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ResultBtn1_png" source.down="ResultBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lb_from" text="标签" x="95" y="664" textColor="0x000000" bold="true" anchorOffsetX.gamewin="0" width.gamewin="510" anchorOffsetY.gamewin="0" height.gamewin="66" y.gamewin="654.69"/>
+		<e:Label id="lb_explain" text="成语出处" x="95" y="767" textColor="0x000000" bold="true" anchorOffsetX.gamewin="0" width.gamewin="524.33" anchorOffsetY.gamewin="0" height.gamewin="134"/>
+		<e:Image source="MoneyBG_png" includeIn="defeated" x="248" y="564.92" anchorOffsetX="0" width="224.94" anchorOffsetY="0" height="60.94"/>
+		<e:Label text="失败" includeIn="defeated" x="327.54" y="572.06" anchorOffsetX="0" width="69.46" anchorOffsetY="0" height="51.22" verticalAlign="middle" bold="true"/>
+	</e:Group>
+</e:Skin>

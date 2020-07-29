@@ -1,0 +1,19 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/button.exml",
+		"resource/eui_skins/gamewin.exml",
+		"resource/eui_skins/levelskin.exml",
+		"resource/eui_skins/SceneBg.exml",
+		"resource/eui_skins/Words.exml",
+		"resource/eui_skins/SceneGameSkin.exml"
+	],
+	"skins": {
+		"SceneBg": "resource/eui_skins/SceneBg.exml",
+		"levelskin": "resource/eui_skins/levelskin.exml",
+		"SceneGameSkin": "resource/eui_skins/SceneGameSkin.exml",
+		"Words": "resource/eui_skins/Words.exml",
+		"gamewin": "resource/eui_skins/gamewin.exml"
+	},
+	"path": "resource/default.thm.json"
+}
