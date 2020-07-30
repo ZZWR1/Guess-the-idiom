@@ -14,6 +14,7 @@ var SceneBg = (function (_super) {
         var _this = _super.call(this) || this;
         _this.skinName = "SceneBgSkin";
         _this.btn.addEventListener(egret.TouchEvent.TOUCH_TAP, _this.onclick, _this);
+        _this.btn_setting.addEventListener(egret.TouchEvent.TOUCH_TAP, _this.sound_click, _this);
         return _this;
     }
     SceneBg.Shared = function () {
@@ -25,6 +26,9 @@ var SceneBg = (function (_super) {
     SceneBg.prototype.onclick = function (e) {
         this.parent.addChild(levelskin.Shared());
         this.parent.removeChild(this);
+    };
+    SceneBg.prototype.sound_click = function (e) {
+        this.addChild(setting.setting());
     };
     return SceneBg;
 }(eui.Component));
