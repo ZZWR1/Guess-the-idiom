@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "BackBtn_png,BackBtn1_png,Dialog_png,GameBG1_jpg,GameBG2_jpg,GameBG3_jpg,MoneyBG_png,MoneyPic_png,PageDownBtn_png,PageUpBtn_png,Result_png,ResultBtn_png,ResultBtn1_png,StartBtn_png,StartBtn1_png,WordFrame_png,YesBtn_jpg,YesBtn1_jpg,btn_disable_png,btn_music_png,btn_music_down_png,btn_sound_png,btn_sound_down_png,gs_select_1_png,gs_select_dis_png,questions_json",
+			"keys": "BackBtn_png,BackBtn1_png,Dialog_png,GameBG1_jpg,GameBG2_jpg,GameBG3_jpg,MoneyBG_png,MoneyPic_png,PageDownBtn_png,PageUpBtn_png,Result_png,ResultBtn_png,ResultBtn1_png,StartBtn_png,StartBtn1_png,WordFrame_png,YesBtn_jpg,YesBtn1_jpg,btn_disable_png,btn_music_png,btn_music_down_png,btn_sound_png,btn_sound_down_png,gs_select_1_png,gs_select_dis_png,questions_json,Seeting_jpg",
 			"name": "preload"
 		}
 	],
@@ -3240,6 +3240,41 @@
 			"url": "assets/questions.json",
 			"type": "json",
 			"name": "questions_json"
+		},
+		{
+			"url": "assets/res/Seeting.jpg",
+			"type": "image",
+			"name": "Seeting_jpg"
+		},
+		{
+			"url": "assets/sound/.DS_Store",
+			"type": "bin",
+			"name": "_DS_Store"
+		},
+		{
+			"url": "assets/sound/Music.mp3",
+			"type": "sound",
+			"name": "Music_mp3"
+		},
+		{
+			"url": "assets/sound/buttonclick.mp3",
+			"type": "sound",
+			"name": "buttonclick_mp3"
+		},
+		{
+			"url": "assets/sound/right.mp3",
+			"type": "sound",
+			"name": "right_mp3"
+		},
+		{
+			"url": "assets/sound/type_word.mp3",
+			"type": "sound",
+			"name": "type_word_mp3"
+		},
+		{
+			"url": "assets/sound/wrong.mp3",
+			"type": "sound",
+			"name": "wrong_mp3"
 		}
 	]
 }
